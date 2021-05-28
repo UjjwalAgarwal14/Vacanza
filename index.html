@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shotcut icon" type="img/png" href="Vacanza_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>VACANZA'18</title>
+    <script src="https://kit.fontawesome.com/e5f0937a01.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  <section id="header">
+      <div class="layer">
+      <div class="icon">
+          <a href="https://csiakgec.in/" target="_blank" class="logo"><strong>CSI</strong></a>
+      </div>
+      <div class="header-text">
+          <div class="header-logo">
+              <img src="Vacanza_logo.png" alt="Vacanza_logo" class=" header-logo_box"  >   
+          </div>
+          <div class="header-title">
+              <img src="vac.svg" alt=" text-logo" class="title">   
+           </div>
+
+              <button type="button" class="Buttons" id="b1"><span>REGISTER </span></button>
+              <button type="button" class="Buttons" id="b2"><span>START QUIZ </span></button>
+        </div>
+    </section> 
+  <nav id="sideNav">
+      <ul>
+          <li>
+              <a href="#">HOME</a>
+              <a href="#">ROUNDS</a>
+              <a href="#">QUIZZES</a>
+          </li>
+      </ul>
+  </nav>
+
+<main>
+   <div class="container">
+       <div class=" container-1">   
+          <img src="vintage.jpg"  class="section-image1" width="250px" height="100%">
+          <div class="container-text">
+              <span class="round"> <h2>ROUND 1</h2>  </span>
+              <hr>
+               <br>
+             Round 1 comprises of 4 domains from which participants have to select
+              at least 2 domains and can choose maximum of 4 domains for more points.
+               The more domain you opt for , the more you score.<br>
+               <br>
+               The four domains are:<br>
+               Vintage Photography |  Leaf Collage |  Origami Art |  Face Mask Art <br> 
+               <button class="btn">RULES</button>
+         </div>
+      </div>
+
+         <div class=" container-2">   
+            <img src="quiz.jpg"  class="section-image2" width="250px" height="100%">
+            <div class="container-text">
+                <span class="round"> <h2>ROUND 2</h2>  </span>
+                <hr>
+                 <br>
+                 Test your knowledge just by answering some basic questions and gain points easily.
+                 Round 2 contains quiz questions based on popular TV series and sports.<br>
+                 <br>
+                 The field are as follows:<br>
+                 Football   |   Stranger Things   |   Cricket   |   F.r.i.e.n.d.s <br> 
+                 <button class="btn">RULES</button>
+           </div>
+         </div>
+
+           <div class=" container-3">   
+               <img src="magic.jpg"  class="section-image3" width="250px" height="100%">
+               <div class="container-text">
+                    <span class="round"><h2>ROUND 3</h2></span>
+                   <hr>
+                  <br>
+                  The final round consists of making an interesting and astonishing
+                   magic trick video which might force people to say “How did you do that!”.
+                    The best and the most surprising video will be selected as the winner.<br>
+                  <br>
+                  
+                  <button class="btn">RULES</button>
+              </div>
+         </div>
+   </div>
+</main>
+    <img src="menuBtn.png" id="menuBtn">
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var topNav = document.getElementById("sideNav");
+        sideNav.style.right="-300px";
+        menuBtn.onclick=function(){
+            if(sideNav.style.right=="-300px"){
+                sideNav.style.right="110px";
+            } else {
+                sideNav.style.right="-300px";
+            }
+        }
+    </script>
+    <div class="footer">
+        <div class="footer_in">
+         <a href="https://www.youtube.com/channel/UCrxGbgXygspoAIk5zhOClVQ" target="_blank" ><i class="fab fa-youtube" id="youtube"></i></a>
+         <a href="https://www.instagram.com/csi_akgec/" target="_blank"  ><i class="fab fa-instagram" id="insta"></i></a>
+         <a  href="https://www.facebook.com/csi.akg/" target="_blank" ><i class="fab fa-facebook-square" id="fb"></i></a>
+        </div>
+    </div>
+    <div class="footer__legal">&copy; CSI:AKGEC 2018</div>
+</body>
+</html>
